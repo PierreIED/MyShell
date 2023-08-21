@@ -1,0 +1,20 @@
+monexit(1)
+
+Nom :
+        monexit - ferme le shell
+
+Synopsis :
+        monexit
+
+Description :
+        Ferme le shell
+
+
+        Pas d'options
+
+
+
+Auteur :
+        Pierre Daheron
+
+Bugs connus :

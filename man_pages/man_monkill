@@ -1,0 +1,23 @@
+monkill(1)
+
+Nom :
+        monkill - envoie un signal donné à un processus. 
+
+Synopsis :
+        monkill [option] [pid_processus]
+
+Description :
+        Envoie un signal à un processus dont le pid est donné. Par défaut, le signal envoyé est SIGTERM. 
+
+
+        Options :
+        -l liste les signaux accessibles avec la commande.  
+
+        -[nom_du_signal] ou -[num_du_signal] change le signal envoyé. 
+        
+
+Auteur :
+        Pierre Daheron
+
+Bugs connus :
+        Aucun :)

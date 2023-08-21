@@ -1,0 +1,23 @@
+monCp(1)
+
+Nom :
+        monCp - copie un fichier
+
+Synopsis :
+        monCp [repertoire_fichier/nom_fichier] [nouveau_repertoire/nouveau_nom]
+
+Description :
+        Copie un fichier existant dans un nouveau répertoire. Il faut impérativement les deux arguments décrits. Si le fichier lu n'existe pas ou n'est pas
+        disponible en lecture, la commande renvoie une erreur. Si le fichier de destination existe, il sera écrasé. S'il n'existe pas, il sera créé. Si le 
+        fichier n'est pas disponible en écriture, la commande renvoie une erreur. 
+
+
+        Pas d'options
+
+
+        
+
+Auteur :
+        Pierre Daheron
+
+Bugs connus :

@@ -1,0 +1,22 @@
+moncd(1)
+
+Nom :
+        moncd - change le répertoire courant
+
+Synopsis :
+        moncd [nom_du_nouveau_répertoire]
+
+Description :
+        Change le répertoire courant.
+
+
+        Pas d'options
+
+
+        Si la commande est appelée sans arguments, change le répertoire courant pour le répertoire personnel (/home/[nom_utilisateur] ).
+
+Auteur :
+        Pierre Daheron
+
+Bugs connus :
+        Aucun :)

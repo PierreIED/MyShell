@@ -1,0 +1,33 @@
+monsleep(1)
+
+Nom :
+        monsleep - provoque une attente du shell
+
+Synopsis :
+        monsleep 5
+
+Description :
+        Provoque une attente du shell pendant le nombre de secondes indiqué en argument. On peut indiquer plusieurs arguments. La commande provoquera
+        autant d'attentes que d'arguments, chaque attente durant autant que la valeur de l'argument. 
+
+        Si l'on ajoute "d" à une suite de nombre, l'argument correspond alors au nombre de jours d'attente. Si l'on ajoute "h", l'argument correspond au 
+        nombre d'heures d'attente et si l'on ajoute "m", l'argument correspond au nombre de minutes d'attente.
+
+        Si un autre argument qu'un nombre ou qu'un nombre précédant l'une des lettres citées au-dessus, la commande renvoie une erreur. 
+
+Exemples : 
+
+    monsleep 3  - attente 3 secondes
+
+    monsleep 3m - attente 3 minutes
+
+    monsleep 3 2 - attente de 3 secondes, puis attente de 2 secondes
+
+    monsleep 3m 20 - attente de 3 minutes, puis de 20 secondes
+
+
+
+Auteur :
+        Pierre Daheron
+
+Bugs connus :

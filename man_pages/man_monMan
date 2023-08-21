@@ -1,0 +1,20 @@
+monMan(1)
+
+Nom :
+        monMan - accède à la page du manuel correspondante
+
+Synopsis :
+        monMan [commande]
+
+Description :
+        Accède à la page du manuel correspondante. Un et un seul argument attendu.  
+
+
+        Pas d'options (les pages des fonctions ou de signaux systèmes ne sont pas documentées).
+
+
+
+Auteur :
+        Pierre Daheron
+
+Bugs connus :
